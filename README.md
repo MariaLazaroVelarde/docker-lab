@@ -4,11 +4,14 @@ Este proyecto contiene un microservicio desarrollado en Java utilizando Gradle y
 
 ---
 
-## 📦 Estructura del proyecto
+## 📂 Archivos RAW
 
-.
-├── Dockerfile
-├── docker-compose.yml
-├── build.gradle
-├── settings.gradle
-└── src/
+- 🔧 [Dockerfile](https://raw.githubusercontent.com/MariaLazaroVelarde/docker-lab/main/microservicio/Dockerfile)
+- 🧱 [docker-compose.yml](https://raw.githubusercontent.com/MariaLazaroVelarde/docker-lab/main/microservicio/docker-compose.yml)
+
+---
+
+## 📦 Construcción de la imagen Docker
+
+```bash
+docker build -t marialazaro/up-microservicio:3.0 .
