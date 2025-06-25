@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  up-microservicio:
+    image: marialazaro/up-microservicio:3.0
+    container_name: up-microservicio
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
